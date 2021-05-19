@@ -2,7 +2,7 @@ import React from "react";
 import AppPic from "./portfolio-images/beautytales_app.png";
 
 const UXUI = () => (
-  <div id="uxui">
+  <div className="page-container" id="uxui">
       <div className="row">
         <div className="col-9 block mx-auto">
           <h3 className="text-center">Introducing Beauty Tales</h3>

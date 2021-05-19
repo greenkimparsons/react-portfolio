@@ -22,12 +22,21 @@ html {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-#uxui {
-  background-color: var(--royalblue);
+/* tab color  */
+.graphicdesign {
+  background-color: var(--aeroblue) !important;
+}
+
+.coding {
+  background-color: var(--lightblue) !important;
 }
 
 .uxui {
-  background-color: var(--royalblue) !important;
+  background-color: var(--saphireblue) !important;
+}
+
+.contact {
+  background-color: var(--denimblue) !important;
 }
 
 /* Style tab links */
@@ -45,14 +54,6 @@ html {
 
 .tablink:hover {
   opacity: 70%;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
 }
 
 .row {
@@ -85,6 +86,7 @@ code {
   background-color: black;
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-feature-settings: normal;
+  margin: 5px;
   padding: 5px;
   border-radius: 5px;
 }
@@ -93,24 +95,25 @@ code {
   display: inline-block;
 }
 
-#home {
-  background-color: var(--royalblue);
+.page-container {
+  padding: 30px 50px;
+}
+
+#graphic-design {
+  background-color: var(--aeroblue);
+  /* padding: 30px 50px; */
 }
 
 #coding {
-  background-color: var(--denimblue);
+  background-color: var(--lightblue);
 }
 
 #uxui {
   background-color: var(--saphireblue);
 }
 
-#graphic-design {
-  background-color: var(--lightblue);
-}
-
 #contact {
-  background-color: var(--aeroblue);
+  background-color: var(--denimblue);
   color: var(--royalblue);
 }
 

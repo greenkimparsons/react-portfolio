@@ -2,7 +2,7 @@ import React from "react";
 import Pdf from "./portfolio-images/greenkim_resume.pdf";
 
 const Contact = () => (
-  <div id="contact">
+  <div className="page-container" id="contact">
     <h3>Contact</h3>
     <p>
       <strong>First</strong> Name: Green <br />

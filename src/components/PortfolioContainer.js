@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import GraphicDesign from "./pages/GraphicDesign";
+import Coding from "./pages/Coding";
 import UXUI from "./pages/UXUI";
 import Contact from "./pages/Contact";
 
 class Portfolio extends Component {
   state = {
-    currentPage: "Home"
+    currentPage: "GraphicDesign"
   };
 
   handlePageChange = page => {
@@ -16,10 +16,10 @@ class Portfolio extends Component {
 
   renderPage = () => {
     //conditional rendering
-    if (this.state.currentPage === "Home") {
-      return <Home />;
-    } else if (this.state.currentPage === "About") {
-      return <About />;
+    if (this.state.currentPage === "GraphicDesign") {
+      return <GraphicDesign />;
+    } else if (this.state.currentPage === "Coding") {
+      return <Coding />;
     } else if (this.state.currentPage === "UXUI") {
       return <UXUI />;
     } else {
