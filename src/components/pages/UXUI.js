@@ -1,21 +1,40 @@
 import React from "react";
+import AppPic from "./portfolio-images/beautytales_app.png";
 
 const UXUI = () => (
-  <div>
-    <h1>UX/UI</h1>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
-  </div>
+  <div id="uxui">
+      <div className="row">
+        <div className="col-9 block mx-auto">
+          <h3 className="text-center">Introducing Beauty Tales</h3>
+          <p className="text-center">To offer an all-in-1 Beauty App</p>
+          <span className="img-container">
+            <img
+              src={AppPic}
+              className="img-fluid mx-auto d-block"
+              alt="app"
+            />
+          </span>
+          <p>
+            With a high demand and investment in the Beauty industry, there is
+            not a single app yet that does what Beauty Tales would do. <br />
+            Through Beauty Tales, an user can watch, share, and get personal
+            beauty advice and stories while being able to purchase those
+            products all in one app. With this advantage, I hoped to connect
+            users that shared the similar interest of beauty to be able to stay
+            connected and seek beauty advice in real-time. <br />
+            Beauty Tales would do the following:
+          </p>
+          <ul>
+            <li>Watch favorite beauty Youtubers</li>
+            <li>Shop the items used in tutorials directly</li>
+            <li>Review the beauty products</li>
+            <li>Ask for beauty advice to beauty gurus</li>
+            <li>Share stories</li>
+            <li>Store beauty products in a digital pouch</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 );
 
 export default UXUI;

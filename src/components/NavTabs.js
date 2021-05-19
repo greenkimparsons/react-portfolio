@@ -25,7 +25,7 @@ function NavTabs(props) {
         <a
           href="#UXUI"
           onClick={() => props.handlePageChange("UXUI")}
-          className={props.currentPage === "UXUI" ? "nav-link active" : "nav-link"}
+          className={props.currentPage === "UXUI" ? "nav-link active uxui" : "nav-link"}
         >
           UX/UI
         </a>
